@@ -7,47 +7,71 @@
   <meta name="description" content="Cloud Engineer portfolio - Terraform, Kubernetes, OCI, AWS, DevOps, CI/CD" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero">
-    <nav class="nav">
-      <div class="brand">RW</div>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="logo"><span class="logo-dot"></span> ROHAN<span class="accent">.</span></div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a class="contact-btn" href="mailto:walunjkarrohan@gmail.com">Contact Me &nbsp;&rsaquo;</a>
+  </nav>
 
-    <div class="hero-content reveal">
-      <p class="tag">Cloud Engineer</p>
-      <h1>Rohan Walunjkar</h1>
-      <p class="sub">
-        Building reliable cloud systems with Terraform, Kubernetes, and CI/CD.
-      </p>
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <div class="hero-left">
+      <p class="badge"><span class="pulse"></span> Available for opportunities</p>
+      <p class="kicker">Cloud Engineer</p>
+      <h1 class="big">Building reliable, scalable <span class="highlight">cloud infrastructure</span>.</h1>
+      <p class="hero-sub">I automate multi-region OCI infrastructure with Terraform, Kubernetes, and CI/CD — delivering secure, zero-downtime releases.</p>
       <div class="cta-row">
-        <a class="btn primary" href="mailto:walunjkarrohan@gmail.com">Email Me</a>
-        <a class="btn ghost" href="https://www.linkedin.com/in/rohan-walunjkar/" target="_blank">LinkedIn</a>
-        <a class="btn ghost" href="https://github.com/rohanwalunjkar" target="_blank">GitHub</a>
+        <a class="btn primary" href="#projects">View My Work &nbsp;&rsaquo;</a>
+        <a class="btn ghost" href="#contact">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://www.linkedin.com/in/rohan-walunjkar/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/rohanwalunjkar" target="_blank">GitHub</a>
+        <a href="mailto:walunjkarrohan@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="tech-grid">
+        <div class="tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" /><span>Kubernetes</span></div>
+        <div class="tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" alt="Docker" /><span>Docker</span></div>
+        <div class="tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-plain.svg" alt="Terraform" /><span>Terraform</span></div>
+        <div class="tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-plain.svg" alt="CI/CD" /><span>CI/CD</span></div>
+        <div class="tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" alt="Git" /><span>Git</span></div>
+        <div class="tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-plain.svg" alt="Ansible" /><span>Ansible</span></div>
+        <div class="tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" /><span>AWS</span></div>
+        <div class="tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" /><span>Linux</span></div>
+        <div class="tile"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" alt="Python" /><span>Python</span></div>
       </div>
     </div>
   </header>
 
   <main>
+    <!-- ABOUT -->
     <section id="about" class="section">
-      <h2>About</h2>
-      <p>
+      <h2><span class="num">01</span> About</h2>
+      <p class="about-text">
         Cloud Engineer with 1.5+ years of experience automating multi-region OCI infrastructure.
-        I focus on secure infrastructure, zero-downtime releases, and practical DevOps automation.
+        I focus on secure infrastructure, zero-downtime releases, and practical DevOps automation —
+        turning manual, error-prone operations into repeatable Infrastructure as Code.
       </p>
     </section>
 
+    <!-- SKILLS -->
     <section id="skills" class="section">
-      <h2>Skills</h2>
+      <h2><span class="num">02</span> Skills</h2>
       <div class="chips">
         <span>OCI</span><span>AWS</span><span>Terraform</span><span>Ansible</span>
         <span>Docker</span><span>Kubernetes</span><span>Helm</span><span>GitHub Actions</span>
@@ -56,10 +80,11 @@
       </div>
     </section>
 
+    <!-- EXPERIENCE -->
     <section id="experience" class="section">
-      <h2>Experience</h2>
+      <h2><span class="num">03</span> Experience</h2>
       <article class="card">
-        <h3>Cloud Engineer - Avaloq</h3>
+        <h3>Cloud Engineer <span class="at">@ Avaloq</span></h3>
         <p class="meta">October 2024 - Present &middot; Terraform, OCI, PostgreSQL, Oracle IDP, GitOps, CI/CD</p>
         <ul>
           <li>Implemented Single Sign-On (SSO) across multiple regions using Oracle IDP, improving user experience by ~70% and significantly reducing manual configuration effort.</li>
@@ -75,8 +100,9 @@
       </article>
     </section>
 
+    <!-- PROJECTS -->
     <section id="projects" class="section">
-      <h2>Projects</h2>
+      <h2><span class="num">04</span> Projects</h2>
 
       <article class="card">
         <h3>DocBook - Doctor Appointment Booking System</h3>
@@ -99,29 +125,45 @@
       </article>
     </section>
 
-    <section class="section">
-      <h2>Certification</h2>
+    <!-- CERTIFICATION -->
+    <section id="cert" class="section">
+      <h2><span class="num">05</span> Certification</h2>
       <article class="card">
         <h3>OCI Certified Associate Architect</h3>
         <p>Oracle Cloud Infrastructure architecture, networking, security, and deployments.</p>
       </article>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact" class="section">
-      <h2>Contact</h2>
-      <p>Email: walunjkarrohan@gmail.com</p>
-      <p>Phone: +91-7666832586</p>
-      <p>LinkedIn: linkedin.com/in/rohan-walunjkar</p>
-      <p>Location: Pune, India</p>
+      <h2><span class="num">06</span> Contact</h2>
+      <div class="contact-grid">
+        <a class="contact-item" href="mailto:walunjkarrohan@gmail.com"><span>Email</span>walunjkarrohan@gmail.com</a>
+        <a class="contact-item" href="tel:+917666832586"><span>Phone</span>+91-7666832586</a>
+        <a class="contact-item" href="https://www.linkedin.com/in/rohan-walunjkar/" target="_blank"><span>LinkedIn</span>linkedin.com/in/rohan-walunjkar</a>
+        <div class="contact-item"><span>Location</span>Pune, India</div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; <span id="year"></span> Rohan Walunjkar. Built with HTML and CSS.</p>
+    <p>&copy; <span id="year"></span> Rohan Walunjkar &middot; Built with HTML &amp; CSS</p>
   </footer>
 
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Reveal sections on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in-view");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll(".section").forEach((el) => observer.observe(el));
   </script>
 </body>
 </html>
