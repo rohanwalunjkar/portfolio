@@ -23,7 +23,7 @@
       </div>
     </nav>
 
-    <div class="hero-content">
+    <div class="hero-content reveal">
       <p class="tag">Cloud Engineer</p>
       <h1>Rohan Walunjkar</h1>
       <p class="sub">
@@ -60,12 +60,17 @@
       <h2>Experience</h2>
       <article class="card">
         <h3>Cloud Engineer - Avaloq</h3>
-        <p class="meta">October 2024 - Present</p>
+        <p class="meta">October 2024 - Present &middot; Terraform, OCI, PostgreSQL, Oracle IDP, GitOps, CI/CD</p>
         <ul>
-          <li>Implemented SSO across 7+ regions using Oracle IDP and EntraID.</li>
-          <li>Automated 15+ deployments with Terraform, reducing provisioning to under 20 minutes.</li>
-          <li>Applied blue-green deployment strategies to cut downtime by 90%.</li>
-          <li>Managed HA, scaling, and DR for services with 99.9% uptime expectations.</li>
+          <li>Implemented Single Sign-On (SSO) across multiple regions using Oracle IDP, improving user experience by ~70% and significantly reducing manual configuration effort.</li>
+          <li>Designed and built custom binary images for the service, automating image creation and rollout whenever a new software version was released to ensure consistent, repeatable deployments.</li>
+          <li>Applied blue-green deployment strategies to reduce downtime by ~95% and improve release reliability and rollback safety.</li>
+          <li>Built a DevOps self-service web tool (Python/Flask) to automate repetitive NSG firewall rule management and blue/green deployments across 7 multi-region OCI environments, using GitOps workflows with atomic commits and PRs via the GitHub API.</li>
+          <li>Automated SFTPGo user and virtual folder provisioning using the Terraform SFTPGo provider (drakkan/sftpgo) with multi-region primary/secondary configuration aliases, eliminating manual setup.</li>
+          <li>Architected and managed high availability, scalability, and disaster recovery (DR) configurations for cloud services and PostgreSQL databases across primary and secondary regions.</li>
+          <li>Automated certificate renewal, SSL/TLS updates, and infrastructure maintenance tasks to ensure secure and uninterrupted service delivery.</li>
+          <li>Built a reusable Terraform component for service configuration, designed to adapt across multiple region deployments and reduce onboarding time for new environments.</li>
+          <li>Streamlined CI/CD pipelines (GitOps workflow) to automate build, test, and deployment of infrastructure and service versions, reducing release cycle time and human error.</li>
         </ul>
       </article>
     </section>
@@ -107,7 +112,7 @@
       <p>Email: walunjkarrohan@gmail.com</p>
       <p>Phone: +91-7666832586</p>
       <p>LinkedIn: linkedin.com/in/rohan-walunjkar</p>
-      <p>Location: India</p>
+      <p>Location: Pune, India</p>
     </section>
   </main>
 
