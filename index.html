@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohan Walunjkar | Cloud Engineer</title>
+  <meta name="description" content="Cloud Engineer portfolio - Terraform, Kubernetes, OCI, AWS, DevOps, CI/CD" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <div class="brand">RW</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="tag">Cloud Engineer</p>
+      <h1>Rohan Walunjkar</h1>
+      <p class="sub">
+        Building reliable cloud systems with Terraform, Kubernetes, and CI/CD.
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="mailto:walunjkarrohan@gmail.com">Email Me</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/rohan-walunjkar/" target="_blank">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/rohanwalunjkar" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        Cloud Engineer with 1.5+ years of experience automating multi-region OCI infrastructure.
+        I focus on secure infrastructure, zero-downtime releases, and practical DevOps automation.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="chips">
+        <span>OCI</span><span>AWS</span><span>Terraform</span><span>Ansible</span>
+        <span>Docker</span><span>Kubernetes</span><span>Helm</span><span>GitHub Actions</span>
+        <span>GitOps</span><span>Python</span><span>Bash</span><span>PostgreSQL</span>
+        <span>MySQL</span><span>Prometheus</span><span>Grafana</span>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <article class="card">
+        <h3>Cloud Engineer - Avaloq</h3>
+        <p class="meta">October 2024 - Present</p>
+        <ul>
+          <li>Implemented SSO across 7+ regions using Oracle IDP and EntraID.</li>
+          <li>Automated 15+ deployments with Terraform, reducing provisioning to under 20 minutes.</li>
+          <li>Applied blue-green deployment strategies to cut downtime by 90%.</li>
+          <li>Managed HA, scaling, and DR for services with 99.9% uptime expectations.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+
+      <article class="card">
+        <h3>DocBook - Doctor Appointment Booking System</h3>
+        <p class="meta">Docker, Kubernetes, GitHub Actions, OCI, Linux, MySQL</p>
+        <ul>
+          <li>Deployed full-stack 3-tier app using containers and Kubernetes manifests.</li>
+          <li>Implemented namespace, secrets, config maps, deployments, and services.</li>
+          <li>Built CI/CD workflows that reduced deployment cycle time by 80%.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>SFTPGo Tools - NSG Rule and Deployment Manager</h3>
+        <p class="meta">Python, Flask, Terraform, OCI, GitHub API, GitOps</p>
+        <ul>
+          <li>Built self-service tool for NSG and blue/green workflows across 7 regions.</li>
+          <li>Automated tfvars updates and GitHub PR creation to reduce manual edits by 95%.</li>
+          <li>Supported zero-downtime releases with orchestration and image rotation.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2>Certification</h2>
+      <article class="card">
+        <h3>OCI Certified Associate Architect</h3>
+        <p>Oracle Cloud Infrastructure architecture, networking, security, and deployments.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: walunjkarrohan@gmail.com</p>
+      <p>Phone: +91-7666832586</p>
+      <p>LinkedIn: linkedin.com/in/rohan-walunjkar</p>
+      <p>Location: India</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Rohan Walunjkar. Built with HTML and CSS.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
